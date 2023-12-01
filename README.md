@@ -1,7 +1,7 @@
 # TrivyDepsFalsePositive
 
 This repo exists as a minimal example to illustrate what I believe to be a false positive flag in Trivy, based upon a misunderstanding of how dependencies are managed in .NET.
-It's motivated by https://github.com/aquasecurity/trivy/issues/2706.
+It's motivated by https://github.com/aquasecurity/trivy/issues/2706. I've posted a link to this repo here https://github.com/aquasecurity/trivy/discussions/4282#discussioncomment-7723046
 
 In this illustration, Trivy highlights two vulnerabilities on our example image, with the following output:
 
